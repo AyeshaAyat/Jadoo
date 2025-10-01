@@ -6,6 +6,8 @@ import Desitnations from './components/pages/Desitnations';
 import Hotels from './components/pages/Hotels';
 import Flights from './components/pages/Flights';
 import Bookings from './components/pages/Bookings';
+import Login from './components/Login';
+import Signup from './Signup';
 function App() {
 
 
@@ -18,6 +20,8 @@ function App() {
         <Route path='hotels/' element={<Hotels/>}/>
         <Route path='flights/' element={<Flights/>}/>
         <Route path='bookings/' element={<Bookings/>}/>
+        <Route path='login/' element={<Login/>}/>
+        <Route path='signup/' element={<Signup/>}/>
     </Route>
    </Routes>
    </>
