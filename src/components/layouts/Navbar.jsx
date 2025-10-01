@@ -5,24 +5,23 @@ import logo from "../../assets/Logo.png";
 import Flex from "../flex";
 import { Link } from "react-router-dom";
 import { FaAngleDown } from "react-icons/fa";
-import bannerLetter from "../../assets/Desc.png";
+
 import banner from "../../assets/Hero Content.png";
-import bannergirl from "../../assets/bannergirl.png";
 
 const Navbar = () => {
   return (
     <>
-      <div className="bg-[url('/src/assets/Decore.png')]  w-[1450px] m-auto  bg-right-top  bg-no-repeat p-5">
-        <Container>
+      <Container>
+        <div className="bg-[url('/src/assets/Decore.png')] m-auto  bg-right-top bg-contain  bg-no-repeat ">
           {/* ---------------------hearderPart----------- */}
-          <div className="pt-10 ml-7">
+          <div className="pt-10 ml-7 ">
             <Flex className="justify-between">
               <Link to="/">
                 <div className="">
                   <Image
                     imgSrc={logo}
                     imgAlt={logo}
-                    className="h-[33px] w-[114px]"
+                  
                   />
                 </div>
               </Link>
@@ -72,17 +71,17 @@ const Navbar = () => {
             {/* ---------------------hearderPart----------- */}
           </div>
           {/* ----------------------bannerPart-------------- */}
-          <div className="m-auto">
+          <div className="m-auto flex">
             <Image
               imgSrc={banner}
               imgAlt={banner}
-              className="mb-10 pr-16  w-[1400px] h-[790px] bg-cover bg-center bg-no-repeat"
+              className="h-[764px] w-[1200px] bg-cover bg-center bg-no-repeat"
             />
           </div>
 
           {/* ----------------------bannerPart-------------- */}
-        </Container>
-      </div>
+        </div>
+      </Container>
     </>
   );
 };
