@@ -16,7 +16,7 @@ const Navbar = () => {
           {/* ---------------------hearderPart----------- */}
           <div className="pt-10 ml-7 ">
             <Flex className="justify-between">
-              <Link to="/">
+             
                 <div className="">
                   <Image
                     imgSrc={logo}
@@ -24,7 +24,6 @@ const Navbar = () => {
                   
                   />
                 </div>
-              </Link>
               <div className="flex gap-x-4 px-10">
                 <ul className="gap-x-18 px-5  flex justify-between">
                   <Link to="desitination/">

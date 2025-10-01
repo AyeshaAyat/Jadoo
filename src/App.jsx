@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from "react-router";
 import RootLayout from './components/layouts/RootLayout';
-import Home from './components/pages/Home';
+
 import Desitnations from './components/pages/Desitnations';
 import Hotels from './components/pages/Hotels';
 import Flights from './components/pages/Flights';
@@ -15,7 +15,7 @@ function App() {
    <>
    <Routes>
     <Route path='/' element={<RootLayout/>}>
-    <Route index element={<Home/>}/>
+    
         <Route path='desitination/' element={<Desitnations/>}/>
         <Route path='hotels/' element={<Hotels/>}/>
         <Route path='flights/' element={<Flights/>}/>
