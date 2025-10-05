@@ -2,13 +2,12 @@ import React from "react";
 import Container from "../Container";
 import Image from "../Image";
 import logo from "../../assets/Logo.png";
-import Flex from "../flex";
-import { Link } from "react-router-dom";
+
+
 import { FaAngleDown } from "react-icons/fa";
 
 import banner from "../../assets/Hero Content.png";
-import bannergirl from "../../assets/bannergirl.png";
-import bannerTxt from "../../assets/Desc.png";
+
 
 const Navbar = () => {
   return (

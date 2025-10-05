@@ -1,4 +1,4 @@
-import Container from "../Container"
+
 import Navbar from "../layouts/Navbar"
 
 const Home = () => {
