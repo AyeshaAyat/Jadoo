@@ -62,13 +62,13 @@ const Navbar = () => {
           <div className="Girl flex relative">
 
               <Image imgSrc={banner}  className="ml-20  mt-3 h-[560px] w-[970px]"  imgAlt={banner} />
+          </div>
+        </div>
               {/* <Image imgSrc={bannerTxt}  className="ml-20 mt-12 h-[315px] w-[392px]"  imgAlt={bannerTxt} />
               <Image imgSrc={bannergirl} className="absolute left-105 h-[420px] w-[440px] " imgAlt={bannergirl} />
             <div className="text">
 
             </div> */}
-          </div>
-        </div>
 
           {/* ----------------------bannerPart-------------- */}
         </div>
