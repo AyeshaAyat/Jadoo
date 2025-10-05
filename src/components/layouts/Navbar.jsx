@@ -14,67 +14,54 @@ const Navbar = () => {
       <Container>
         <div className="bg-[url('/src/assets/Decore.png')] m-auto  bg-right-top bg-contain  bg-no-repeat ">
           {/* ---------------------hearderPart----------- */}
-          <div className="pt-10 ml-7 ">
-            <Flex className="justify-between">
-             
-                <div className="">
-                  <Image
-                    imgSrc={logo}
-                    imgAlt={logo}
-                  
-                  />
-                </div>
-              <div className="flex gap-x-4 px-10">
-                <ul className="gap-x-18 px-5  flex justify-between">
-                  <Link to="desitination/">
-                    <li className="text-[22px] font-sans text-[#212832]">
-                      Desitnations
-                    </li>
-                  </Link>
-                  <Link to="hotels/">
-                    <li className="text-[22px] font-sans text-[#212832]">
-                      Hotels
-                    </li>
-                  </Link>
-                  <Link to="flights/">
-                    <li className="text-[22px] font-sans text-[#212832]">
-                      Flights
-                    </li>
-                  </Link>
-                  <Link to="bookings/">
-                    <li className="text-[22px] font-sans text-[#212832]">
-                      Bookings
-                    </li>
-                  </Link>
-                  <Link to="login/">
-                    <li className=" ml-2 text-[22px] font-sans text-[#212832]">
-                      Login
-                    </li>
-                  </Link>
-                  <Link to=" signup/">
-                    <li className=" py-1 mr-2  px-4 text-center  border-[#212832c6] rounded-[6px] text-[22px] text-[#212832] cursor-pointer border-1">
-                      Sign up
-                    </li>
-                  </Link>
-                </ul>
+          <div className=" main py-7 flex gap-50 ">
+            <div className="pl-12">
+              <Image imgSrc={logo} imgAlt={logo} />
+            </div>
+            <div className="flex mt-2">
+              <ul className="gap-x-10 flex ">
+                <li className="text-[14px] font-[450] font-sans text-[#212832]">
+                  Desitnations
+                </li>
 
-                <div className=" flex pr-7 gap-x-3 justify-between py-2 pb-10  text-[22px] text-[#212832] cursor-pointer ">
-                  <>
-                    <p>EN</p>
+                <li className="text-[14px] font-[450] font-sans text-[#212832]">
+                  Hotels
+                </li>
 
-                    <FaAngleDown className="mt-2 text-[#212832] opacity-70" />
-                  </>
-                </div>
-              </div>
-            </Flex>
+                <li className="text-[14px] font-[450] font-sans text-[#212832]">
+                  Flights
+                </li>
+
+                <li className="text-[14px] font-[450] font-sans text-[#212832]">
+                  Bookings
+                </li>
+
+                <li className="text-[14px] font-[450] font-sans text-[#212832]">
+                  Login
+                </li>
+
+                <li className="  border-1 py-0.5  px-2.5 text-center font-[500] rounded-[2px] text-[12px] text-[#212832] cursor-pointer ">
+                  Sign up
+                </li>
+              </ul>
+
+              <li className="ml-5 flex font-[450]  text-[14px] text-[#212832] cursor-pointer ">
+                <>
+                  EN
+
+                  <FaAngleDown className=" ml-0.5 size-3 mt-1.5 opacity-70" />
+                </>
+              </li>
+            </div>
+
             {/* ---------------------hearderPart----------- */}
           </div>
           {/* ----------------------bannerPart-------------- */}
-          <div className="m-auto flex">
+          <div className="m-auto pl-6 flex">
             <Image
               imgSrc={banner}
               imgAlt={banner}
-              className="h-[764px] w-[1200px] bg-cover bg-center bg-no-repeat"
+              className="h-[650px]  bg-cover bg-center bg-no-repeat"
             />
           </div>
 
